@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Muhammad Ryan Rajata : 087</title>
+</head>
+
+<body bgcolor="#ffffff"> <!-- atribut bgcolor berfungsi untuk menge-set warna latar belakang dari laman website-nya dengan
+        tambahan kode warna hexadecimal (keyword di google: hexadecimal color picker) -->
+    <h1 style="color: coral;">Belajar HTML <img src="img/logoHTML5.png" alt="" width="5%" align="center"></h1>
+    <br>
+    <!-- atribut style merupakan atribut pada CSS yang mempunyai banyak kustomisasi, salah satunya "color", berguna untuk mengubah warna
+            teks-->
+    <b>Created by: Muhammad Ryan Rajata</b>
+    <hr>
+    <p>Senin, 28 Agustus 2023</p>
+
+    Halo, apa kabar? <br>
+    Halo, apa kabar? <br>
+    Halo, apa kabar? <br>
+    Halo, apa kabar? <br>
+    Halo, apa kabar?
+
+    <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ex soluta modi repellendus voluptatem
+        corporis, excepturi qui suscipit! Nisi accusantium minima vel vero veniam voluptate doloremque aliquam beatae
+        nostrum odio? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat adipisci natus corporis
+        asperiores quos, doloribus harum incidunt, magni itaque, quia dolor iusto dolore reprehenderit praesentium et
+        consectetur veniam vitae cumque? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt aut quam quae
+        quos, at laudantium corporis exercitationem inventore nam magni architecto facilis officia animi cum temporibus
+        ut, recusandae voluptas quidem.</p>
+
+    <a href="https://my.its.ac.id/signin?response_type=code&redirect_uri=https%3A%2F%2Fmy.its.ac.id%2Fsso%2Fauth&client_id=8F7FA330-B0AF-4D91-9EC4-1A4182336EEC&nonce=718f8db6917fcbd2bb08aad6544e4aa2&state=54c1d1db6961189ee7d1aebed09d8614&scope=openid+integra+profile+email+phone+group+role+resource"
+        target="_blank">Web ITS</a> | <a href="https://www.detik.com/" target="_blank">Detik.com</a> | <a
+        href="https://www.w3schools.com/html/default.asp" target="_blank">W3schoools HTML</a> <br> <br>
+    <!-- atribut target, lalu ditambahkan "_blank", akan membuat link yang akan dibuka terbuka di tab baru -->
+    <img src="img/logoKotaSurabaya.png" alt="" width="25%"> <br>
+    <img src="img/rickroll-rick.gif" alt="" width="25%"> <br>
+    <img src="https://www.its.ac.id/si/wp-content/uploads/sites/45/2019/07/IMG-20190121-WA0013-1024x682.jpg"
+        alt="" width="25%">
+</body>
+
+</html>

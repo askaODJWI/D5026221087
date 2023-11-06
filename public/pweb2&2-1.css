@@ -1,0 +1,26 @@
+h3 {
+    color: blue;
+    text-align: center;
+    text-decoration: overline;
+}
+
+p {
+    color: blueviolet;
+    text-align: justify;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.ratakanan {
+    color: green;
+    text-align: right;
+    font-weight: bold;
+}
+
+.kotaku1 {
+    border-style: solid;
+    border-color: white;
+}
+/* CSS dengan external file? (khusus untuk 1 situs spesifik saja */

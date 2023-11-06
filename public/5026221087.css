@@ -1,0 +1,70 @@
+body {
+    background-color: #30945E;
+}
+.ryan_circle {
+    width: 37px;
+    height: 37px;
+    background: white;
+    border-radius: 50%;
+}
+.ryan_center_and_round_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+@font-face {
+    font-family: myFont;
+    src: url(font/Karla-Regular.ttf);
+}
+.ryan_center_and_custom_font {
+    text-align: center;
+    color: white;
+    font-family: myFont;
+    line-height: 11px;
+}
+.ryan_main_shape {
+    background-color: white;
+    width: 600px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 35px auto;
+    text-align: center;
+    color: #30945E;
+    font-family: myFont;
+    border-radius: 100px;
+}
+.ryan_main_shape_margin {
+    background-color: white;
+    width: 600px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+    color: #30945E;
+    font-family: myFont;
+    border-radius: 100px;
+}
+a:link {
+    color: #30945E;
+    text-decoration: none;
+}
+a:visited {
+    color: #30945E;
+    text-decoration: none;
+}
+a:hover {
+    color: #30945E;
+    text-decoration: none;
+    font-size: larger;
+}
+@font-face {
+    font-family: my2Font;
+    src: url(font/LTInternet-Regular.ttf);
+}
+.ryan_last {
+    font-family: my2Font;
+    color: white;
+    font-size: smaller;
+    margin-left: 10px;
+}
