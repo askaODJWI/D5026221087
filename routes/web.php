@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+// use App\Http\Controllers\MahasiswaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,3 +57,6 @@ Route::get('/week6', function () {
 Route::get('/ETS', function () {
     return view('ETS');
 });
+
+Route::get('/perkalian', 'App\Http\Controllers\MahasiswaController@index');
+Route::get('/show', 'App\Http\Controllers\MahasiswaController@showBlog');
