@@ -22,7 +22,7 @@ Route::get('/halo', function () {
     return "<marquee>Cieeeeee, nungguin teks ini lewat AOWKOWKWKWKWKWKAOWKOWAOWKOWAOWKOWAOWKOWAOWKOWAOWKOWAOWKOWAOWKOW</marquee>";
 });
 
-Route::get('/blog', function () {
+Route::get('/blog2', function () {
     return view('blog');
 });
 
@@ -60,3 +60,12 @@ Route::get('/ETS', function () {
 
 Route::get('/perkalian', 'App\Http\Controllers\MahasiswaController@index');
 Route::get('/show', 'App\Http\Controllers\MahasiswaController@showBlog');
+
+Route::get('/pegawai/{nama}', 'App\Http\Controllers\MahasiswaController@showNama');
+
+Route::get('/formulir', 'App\Http\Controllers\MahasiswaController@formulir');
+Route::post('/formulir/proses', 'App\Http\Controllers\MahasiswaController@proses');
+
+Route::get('/blog', 'App\Http\Controllers\BlogController@home');
+Route::get('/blog/tentang', 'App\Http\Controllers\BlogController@tentang');
+Route::get('/blog/kontak', 'App\Http\Controllers\BlogController@kontak');
