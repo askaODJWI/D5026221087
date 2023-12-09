@@ -26,7 +26,7 @@
             <!-- Links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/pegawai">Main Page</a>
+                    <a class="nav-link" href="/nilaikuliah">Main Page</a>
                 </li>
                 {{-- <li class="nav-item">
                     <a class="nav-link" href="#">Link 2</a>

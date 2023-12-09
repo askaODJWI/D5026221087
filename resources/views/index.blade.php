@@ -16,8 +16,9 @@
     <form action="/pegawai/cari" method="GET">
         <input class="form form-control" type="text" name="cari" placeholder="Cari Pegawai Berdasarkan Nama..."
             value="{{ old('cari') }}">
-        <input type="submit" value="CARI" class="btn btn-primary">
+        <input type="submit" value="Cari" class="btn btn-primary">
     </form>
+    <br>
     <table class="table table-striped table-hover">
         <tr>
             <th>Nama</th>

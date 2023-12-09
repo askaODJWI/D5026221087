@@ -1,7 +1,6 @@
 @extends('master2')
 
 @section('konten')
-    <h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
     <h3>Lihat Data Pegawai</h3>
 
     {{-- <a href="/pegawai"> Kembali</a> --}}
