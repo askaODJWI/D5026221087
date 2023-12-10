@@ -59,5 +59,6 @@
         @endforeach
     </table>
     {{-- {{ $pegawai->links() }} --}}
+    {{ $bedak->links() }}
 
 @endsection

@@ -12,7 +12,7 @@ class BedakController extends Controller
     {
     	// mengambil data dari table pegawai
     	// $pegawai = DB::table('pegawai')->get();
-        $bedak = DB::table('bedak')->get();
+        $bedak = DB::table('bedak')->paginate(5);
 
     	// mengirim data pegawai ke view index
     	return view('index3',['bedak' => $bedak]);
