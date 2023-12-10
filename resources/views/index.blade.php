@@ -19,21 +19,30 @@
         <input type="submit" value="Cari" class="btn btn-primary">
     </form>
     <br>
-    <table class="table table-striped table-hover">
-        <tr>
-            <th>Nama</th>
-            <th>Jabatan</th>
-            <th>Umur</th>
-            <th>Alamat</th>
-            <th>Opsi</th>
-        </tr>
+    <table class="table table-bordered table-striped table-hover">
+        <colgroup>
+            <col style="width: 20%;">
+            <col style="width: 20%;">
+            <col style="width: 10%;">
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+        </colgroup>
+        <thead class="text-center">
+            <tr>
+                <th style="border: 1px solid #dee2e6;">Nama</th>
+                <th style="border: 1px solid #dee2e6;">Jabatan</th>
+                <th style="border: 1px solid #dee2e6;">Umur</th>
+                <th style="border: 1px solid #dee2e6;">Alamat</th>
+                <th style="border: 1px solid #dee2e6;">Opsi</th>
+            </tr>
+        </thead>
         @foreach ($pegawai as $p)
             <tr>
                 <td>{{ $p->pegawai_nama }}</td>
                 <td>{{ $p->pegawai_jabatan }}</td>
                 <td>{{ $p->pegawai_umur }}</td>
                 <td>{{ $p->pegawai_alamat }}</td>
-                <td>
+                <td class="text-center">
                     <a href="/pegawai/view/{{ $p->pegawai_id }}" class="btn btn-success">View</a>
                     |
                     <a href="/pegawai/edit/{{ $p->pegawai_id }}" class="btn btn-warning">Edit</a>
