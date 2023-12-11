@@ -21,33 +21,28 @@
     <div class="container">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">5026221087 - Muhammad Ryan Rajata</a>
+            <a class="navbar-brand" href="#">5026221087 Muhammad Ryan Rajata</a>
 
-            <!-- Links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/pegawai">Main Page</a>
+                    <a class="nav-link" href="#">Link 1</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link 2</a>
                 </li>
-
-                <!-- Dropdown -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Database
+                        DATABASE
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="/pegawai">Pegawai</a>
+                        <a class="dropdown-item" href="/combo">Kategori</a>
+                        <a class="dropdown-item" href="#">Link 1</a>
                         <a class="dropdown-item" href="#">Link 2</a>
-                        <a class="dropdown-item" href="#">Link 3</a>
                     </div>
                 </li>
             </ul>
         </nav>
         <hr />
-        <br />
-        <br />
 
         <!-- bagian judul halaman blog -->
         @yield('judul_halaman')

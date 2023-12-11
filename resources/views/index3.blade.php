@@ -39,13 +39,18 @@
                 {{-- <td>{{ $b->kodebedak }}</td> --}}
                 <td>{{ $b->merkbedak }}</td>
                 <td class="text-center">{{ $b->stockbedak }}</td>
-                <td class="text-center">
+                @if ($b->tersedia === '1')
+                    <td class="text-center" style="background-color: black; color: white;">Iya</td>
+                @else
+                    <td class="text-center" style="background-color: red; color: white;">Tidak</td>
+                @endif
+                {{-- <td class="text-center">
                     @if ($b->tersedia === '1')
                         Iya
                     @else
                         Tidak
                     @endif
-                </td>
+                </td> --}}
                 <td class="text-center">
                     <a href="/bedak/view/{{ $b->kodebedak }}" class="btn btn-success">View</a>
                     |

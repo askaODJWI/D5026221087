@@ -93,3 +93,6 @@ Route::get('/bedak/view/{kodebedak}','App\Http\Controllers\BedakController@view3
 Route::get('/bedak/edit/{kodebedak}','App\Http\Controllers\BedakController@edit3');
 Route::post('/bedak/update','App\Http\Controllers\BedakController@update');
 Route::get('/bedak/hapus/{kodebedak}','App\Http\Controllers\BedakController@hapus');
+
+Route::get('/combo','App\Http\Controllers\KategoriController@indexEAS');
+Route::post('/hasilcombo','App\Http\Controllers\KategoriController@viewEAS');

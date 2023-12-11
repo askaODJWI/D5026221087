@@ -33,21 +33,6 @@
                     placeholder = "Ketik 1 Jika Tersedia / Ketik 0 Jika Tersedia">
             </div>
         </div>
-        {{-- <div class = "form-group">
-            <label for = "alamat" class = "col-sm-2 control-label">Alamat</label>
-            <div class = "col-sm-8 ">
-                <textarea name="alamat" type = "text" class = "form-control" id = "alamat" placeholder = "Masukkan Alamat Pegawai"></textarea>
-            </div>
-        </div> --}}
-        {{-- Nama
-        <br><input type="text" name="nama" required="required"> <br />
-        Jabatan
-        <br><input type="text" name="jabatan" required="required"> <br />
-        Umur
-        <br><input type="number" name="umur" required="required"> <br />
-        Alamat
-        <br>
-        <textarea name="alamat" required="required"></textarea> <br /> --}}
         <input type="submit" value="Simpan Data" class="btn btn-primary">
     </form>
 @endsection
